@@ -1,0 +1,38 @@
+#---------------------------------------------------------------------------
+#
+# Maps used for calculating habitat area and landscape metrics, to assess
+# the effects of road expansion on golden lion tamarin landscape connectivity
+#
+# Data from:
+# Ascencao, F; Niebuhr, BB; Moraes, A; Alexandre, BR; Assis, JC; 
+#   Alves-Eigenheer, MA; Ribeiro, JW; Morais-JR, MM; Martins, AF; Oliveira, A;
+#   Moraes, E; Ramos, JH; Ferraz, LP; Dietz, JM; Lorini, ML; Culot, L; 
+#   Ruiz-Miranda, CR; Ribeiro, MC. End of the line for the Golden-lion tamarin? 
+#   A single road threatens 30 years of conservation efforts. 
+#   Conservation Science and Practice.
+#
+#---------------------------------------------------------------------------
+
+# Maps
+
+The habitat map presented here, 'fcover01_under700m_res20m.tif', corresponds to 
+the forest class of the land use map produced by the Brazilian Foundation
+for Sustainable Development (in portuguese, Fundação Brasileira para o 
+Desenvolvimento Sustentável, FBDS).
+
+The original land use classes in FBDS raster are:
+1 = water
+2 = antropic areas
+3 = areas with buildings
+4 = forest 
+5 = non forest natural areas
+6 = silviculture
+
+Only forests (class 4) with elevation lower than 700m were selected here, since these 
+correspond to most common used habitat for golden lion tamarins. FBDS maps were 
+created with resolution 5m but here were transformed to resolution 20m for area 
+and landscape metrics calculations, and presented in matricial format (raster).
+
+We also present the map "fcover01_under700m_res20m_HABITAT.shp", a vetorial map of
+all forests in the study area, regardless of elevation. This was the original
+forest map from FBDS used for producing the matricial map cited above.

@@ -1,4 +1,0 @@
-- table of resistance values
-- GRASS script to transform land use into resistance maps (or R script)
-- resistance maps (if they are not too large)
-- products: corridor maps (if they are not too large)
